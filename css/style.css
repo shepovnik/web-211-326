@@ -1,23 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-:root{
-    font-size: 62.5%;
+:root
+{
+    
     --primary-color1: #18162D;
     --primary-color2: #3579F4;
-    --primary-color3: #FFFFFF;
+    --primary-color3: #FFFFFF; 
     --primary-color4: #ffffff40;
-
+    --primary-color5: #F0F0FA;
+    --primary-color0: #E4E4E4;
+}
+html{
+    font-size: 62.5%;   
+}
+.last{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    font-size: 0.3rem;
 }
-h1{
-    font-size: 1.6rem;
-    color: var(--primary-color1)
+.fon_2
+{
+    
+    /* Rectangle 28 */
+
+    
+    width: 375px;
+    height: 1151px;
+    left: 0px;
+    top: 3432px;
+    
+    background: #3579F4;
+    border-radius: 35px 35px 0px 0px;
+
+}
+.fon_pic{
+    background-color: var(--primary-color5);
+    border-radius: 10px;
+    position: absolute;
+    width: 130px;
+    height: 90px;
+    left: 132px;
+    top: 452px;
 }
 
-h2{
-    font-size: 1.6rem;
-    color: var(--primary-color2)
+ol, ul{
+    list-style: none;
 }
-hr{
-    color: var(--primary-color2)
+
+body{
+    background-color: var(--primary-color0);
+}
+h1
+{
+    color: var(--primary-color1);
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 61px;
+    font-size: 3.375rem;
+}
+h2
+{
+    font-family: 'Inter';
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color2);
+    line-height: 24px;
+}
+a{
+    text-decoration: none;
+}
+footer
+{
+    background-color: var(--primary-color1);
+    border-radius: 50px 50px 0px 0px;
+    height: 365px;
+    font-size: 1.6rem;
+    color: var(--primary-color3);
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.h_fon2{
+    width: 174px;
+    height: 43px;
+    left: 27px;
+    top: 3534px;
+
+   
+    color: #F0F0FA;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 43px;
+    white-space: nowrap;
 }
