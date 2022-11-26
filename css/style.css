@@ -136,6 +136,7 @@ h2
     font-size: 1.8rem;
     Line-height: 2.2rem;
     text-align: center;
+    padding-left: 0;
 }
 .h2{
     color: var(--primary-color2);
@@ -178,6 +179,11 @@ footer
     text-align: center;
     list-style: none;
     display: inline;
+    padding-left: 0;
+
+}
+.ulp{
+    padding-left: 0;
 }
 .last_p{
     font-family: 'Inter', sans-serif;
