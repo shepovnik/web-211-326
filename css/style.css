@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@600;700&display=swap');
 :root
 {
-    
+    font-size: 62.5%; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     --primary-color1: #18162D;
     --primary-color2: #3579F4;
     --primary-color3: #FFFFFF; 
@@ -10,11 +12,6 @@
     --primary-color0: #E4E4E4;
     --primary-color6: #8C8C8C;
     --primary-color7: #ffffffd2;
-
-}
-html
-{
-    font-size: 62.5%;   
 }
 body
 {
@@ -22,8 +19,6 @@ body
 }
 .nav
 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     font-size: 1.6rem;
     Line-height: 1.9rem;
     text-align: center; 
@@ -32,8 +27,7 @@ body
 
 h1
 {
-    color: var(--primary-color1);
-    font-family: 'Inter', sans-serif;
+    color: var(--primary-color1);  
     font-weight: 600;
     line-height: 4.2rem;
     font-size: 3.8rem;
@@ -62,9 +56,7 @@ h2
 }
 .pt{
     color: var(--primary-color1);
-    font-family: 'Inter', sans-serif;
     font-size: 2.2rem;
-    font-weight: 400;
     line-height: 2.4rem;
     text-align: left;
 }
@@ -101,8 +93,6 @@ h2
 }
 .form1{
     color: var(--primary-color7);
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     font-size: 1.6rem;
     line-height: 2rem;
     border: 0rem;
@@ -112,9 +102,7 @@ h2
 .ac{
     text-decoration: underline;
     color: var(--primary-color7);
-    font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
-    font-weight: 400;
     line-height: 2rem;
 }
 .send_m{
@@ -125,14 +113,11 @@ h2
 }
 .send_mt{
     color: var(--primary-color6);
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 2rem;
 }
 .last{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     font-size: 1.8rem;
     Line-height: 2.2rem;
     text-align: center;
@@ -140,17 +125,14 @@ h2
 }
 .h2{
     color: var(--primary-color2);
-    font-family: 'Inter', sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.7rem;
     text-align: left;
 }
 .btp{
-    font-family: 'Inter', sans-serif;
     color: var(--primary-color1);
     font-size: 1.6rem;
-    font-weight: 400;
     line-height: 2.4rem;
     text-align: left;
 }
@@ -167,11 +149,9 @@ footer
     border-radius: 5rem 5rem 0rem 0rem;
     height: 40rem;
     color: var(--primary-color3);
-    font-family: 'Inter', sans-serif;
     margin-top: -3.6em;
 }
 .last_cont{
-    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
     Line-height: 24.2px;
@@ -186,10 +166,8 @@ footer
     padding-left: 0;
 }
 .last_p{
-    font-family: 'Inter', sans-serif;
     color:  var(--primary-color4);
     font-size: 1.4rem;
-    font-weight: 400;
     line-height: 1.7rem;
     text-align: left;
 }
