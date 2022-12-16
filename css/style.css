@@ -725,3 +725,61 @@ body > footer {
     position: sticky;
     top: 100vh;
 }
+.at{
+    transition: 0.5s;
+}
+.at:hover {
+    transform: scale(1.2); 
+    background-color: #95b4ed;
+    border-radius: 0.2rem;
+}
+.nav a{
+    transition: 0.5s;
+}
+.nav a:hover {
+    transform: scale(1.2); 
+    background-color: #95b4ed;
+    border-radius: 0.2rem;
+}
+button{
+    transition: 0.5s;
+}
+button:hover {
+    transform: scale(1.2); 
+}
+::selection {
+    background-color: rgb(183, 213, 241);
+}
+.optul li{
+    transition: 0.5s;
+}
+.optul li:hover {
+    transform: scale(1.05); 
+}
+.btlp div{
+    transition: 0.5s;
+}
+.btlp div:hover{
+transform: scale(1.1); 
+}
+.logo{
+    transition: 0.5s;
+}
+.logo:hover{
+    transform: scale(1.1); 
+}
+.logo-b{
+    transition: 0.5s;
+}
+.logo-b:hover{
+    transform: scale(1.1); 
+}
+.last_contp img{
+    transition: 0.5s;
+}
+.last_contp:hover{
+    transform: scale(1.1); 
+}
+.nav2 :hover{
+    transform: scale(1.1); 
+}
