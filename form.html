@@ -9,7 +9,7 @@
 </head>
 <body class="wrapper1">       
     <header>
-        <a  href="form.html"><img class="logo"  src="picture/Group 198.svg" alt="MDA SHIPPING" width ="184" height="53"></a>
+        <a  href="index.html"><img class="logo"  src="picture/Group 198.svg" alt="MDA SHIPPING" width ="184" height="53"></a>
         <nav class="nav1">    
         <ul class="nav_1_1">
             <li class="nav"><a class = "at" href="#">HOME</a></li>
@@ -31,19 +31,32 @@
     <section class="fon_21">
         <div class="conto1">
             <div class="wrapper2">
-                <h2 class = "h_fon21">User data</h2>
-                <!-- <p class="formp1">Contact us if you need more information about our services</p> -->
+                
                 <form class="form11">
+                    <h2 class = "h_fon21">User data</h2>
+                <div>
                     <label ><p class="formp1">Name:</p><input  type="text" placeholder="Polina"></label>
                     <label ><p class="formp1">Surame:</p><input  type="text" placeholder="Shepovalova"></label>
-                    <!-- <label ><p class="formp1">Name:</p><textarea  cols="50" rows="5" placeholder="Message"></textarea></label> -->
-                    <label ><p class="formp1">Date or birth:</p> <input type="date" name="date" value="2022-12-17"
-                        min="1900-01-01" max="2022-12-31"> </label>
-                    <label class="ded" ><input class="check" type="checkbox">I agree with the 
-                    <a class="ac" href="#">Privacy policy</a>
-                    
+                    <label ><p class="formp1">Date or birth:</p> <input class="pole" type="date" name="date" value="2022-12-17"
+                    min="1900-01-01" max="2022-12-31"> </label>
+                    <p class="formp1">Gender:</p>
+                    <div class="pol">
+                    <label class="pol" >M<input type= "radio" name="pol"></label>
+                    <label class="pol">W<input type= "radio" name="pol" ></label>
+                    </div>
+                    <label ><p class="formp1">Password:</p><input name="password"  maxlength="8" id="userPassword" type="password" placeholder="At least 8 characters"></label>
+                </div>
+                <div>
+                    <h2 class = "h_fon21">Contact information</h2>
+                    <label ><p class="formp1">Email:</p><input  type="email" placeholder="email@adress.com"></label>
+                    <label ><p class="formp1">Phone number:</p><input  type="tel" placeholder="+7 (***) *** ** **"></label>
+                    <label ><p class="formp1">Сonvenient interval for communication:</p><input  type="text" placeholder="Morning, day, evening, night"></label>
+                    <label class="ded" ><input class="check" type="checkbox">I agree with the                
+                        <a class="ac" href="#"> Privacy policy</a> 
                 </label>
-                <button> <p >SEND A MESSAGE</p> </button>             
+                <button> <p >SEND A FORM</p> </button>  
+                <button> <p >REMOVE FORM</p> </button>  
+            </div>           
                 </form>
             </div>
         </div>    
