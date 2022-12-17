@@ -32,25 +32,26 @@
         <div class="conto1">
             <div class="wrapper2">
                 
-                <form class="form11">
+                <form class="form11" name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
                     <h2 class = "h_fon21">User data</h2>
                 <div>
-                    <label ><p class="formp1">Name:</p><input  type="text" placeholder="Polina"></label>
-                    <label ><p class="formp1">Surame:</p><input  type="text" placeholder="Shepovalova"></label>
-                    <label ><p class="formp1">Date or birth:</p> <input class="pole" type="date" name="date" value="2022-12-17"
+                    <label ><p class="formp1">Name:</p><input  type="text" name="name:" placeholder="Polina" required></label>
+                    <label ><p class="formp1">Surname:</p><input  type="text" name="surname:" placeholder="Shepovalova" required></label>
+                    <label ><p class="formp1">Date or birth:</p> <input class="pole" type="date" name="date:" value="2022-12-17" required
                     min="1900-01-01" max="2022-12-31"> </label>
                     <p class="formp1">Gender:</p>
                     <div class="pol">
-                    <label class="pol" >M<input type= "radio" name="pol"></label>
-                    <label class="pol">W<input type= "radio" name="pol" ></label>
+                    <label class="pol" >M<input type= "radio" name="pol:"></label>
+                    <label class="pol">W<input type= "radio" name="pol:" ></label>
                     </div>
-                    <label ><p class="formp1">Password:</p><input name="password"  maxlength="8" id="userPassword" type="password" placeholder="At least 8 characters"></label>
+                    <label ><p class="formp1">Password:</p><input name="password:"  maxlength="8" id="userPassword" type="password" placeholder="At least 8 characters" required></label>
                 </div>
                 <div>
                     <h2 class = "h_fon21">Contact information</h2>
-                    <label ><p class="formp1">Email:</p><input  type="email" placeholder="email@adress.com"></label>
-                    <label ><p class="formp1">Phone number:</p><input  type="tel" placeholder="+7 (***) *** ** **"></label>
-                    <label ><p class="formp1">Сonvenient interval for communication:</p><input  type="text" placeholder="Morning, day, evening, night"></label>
+                    <label ><p class="formp1">Email:</p><input name="email" type="email" placeholder="email@adress.com"></label>
+                    <label ><p class="formp1">Phone number:</p><input name="phone number:" type="tel" placeholder="+7 (***) *** ** **"></label>
+                    <label ><p class="formp1">Сonvenient interval for communication:</p><input name="time:" type="text" placeholder="Morning, day, evening, night"></label>
                     <label class="ded" ><input class="check" type="checkbox">I agree with the                
                         <a class="ac" href="#"> Privacy policy</a> 
                 </label>
