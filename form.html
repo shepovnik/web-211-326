@@ -32,7 +32,7 @@
         <div class="conto1">
             <div class="wrapper2">
                 
-                <form class="form11" name="contact" method="POST" data-netlify="true">
+                <form class="form11" name="contact" method="GET" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact">
                     <h2 class = "h_fon21">User data</h2>
                 <div>
@@ -42,8 +42,8 @@
                     min="1900-01-01" max="2022-12-31"> </label>
                     <p class="formp1">Gender:</p>
                     <div class="pol">
-                    <label class="pol" >M<input type= "radio" name="pol:"></label>
-                    <label class="pol">W<input type= "radio" name="pol:" ></label>
+                    <label class="pol" >M<input type= "radio" name="pol:" value="man"></label>
+                    <label class="pol">W<input type= "radio" name="pol:" value="woman"></label>
                     </div>
                     <label ><p class="formp1">Password:</p><input name="password:"  maxlength="8" id="userPassword" type="password" placeholder="At least 8 characters" required></label>
                 </div>

@@ -436,12 +436,14 @@ h2
     font-size: 1.6rem;
     line-height: 2rem;
 }
-
+.wrapper .form1 input{
+    color: #FFFFFF;
+}
 
 
 .form1 input 
 {
-    color: var(--primary-color7);
+    color: var(--primary-color3);
     border: 0;    
     padding: 1rem 3rem;    
     background-color: var(--primary-color8);
@@ -460,11 +462,13 @@ h2
     height: 4rem;
 
 }
-
+input{
+    color: rgba(255,255,255);
+}
 .form1 textarea 
 {
     border: 0;
-    color: var(--primary-color7);
+    color: var(--primary-color3);
     box-sizing: border-box;
     padding: 1rem 3rem;    
     background-color: var(--primary-color8);
@@ -539,10 +543,12 @@ h2
     color: var(--primary-color6);
 }
 .form11 .pol{
+    width: 17.5rem;
+}
+.form11 .pol{
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
-    flex-direction: column;
 }
 .send_mt
 {
